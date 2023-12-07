@@ -48,7 +48,7 @@ function runtimer(){
         document.querySelector("#timerval").textContent = timer;
     }else{
         clearInterval(timerint)
-        document.querySelector(".pbtm").innerHTML = `<h1>Game Over</h1><br> <h1> <a href="https://instagram.com/yogendra_singh_rajput___?igshid=NzZlODBkYWE4Ng=="><li>Facebook</a></h1> <br>   <h2>Your score is ${score} `      
+        document.querySelector(".pbtm").innerHTML = `<h1>Game Over</h1><h1> <a href="https://instagram.com/yogendra_singh_rajput___?igshid=NzZlODBkYWE4Ng==">Yogi</a> se bolo</h1>    <h2>Your score is ${score} `      
     }
 
     },1000)
